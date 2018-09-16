@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.hejin.demo",
+      "nativeLanguage": "ja"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "monolith",
+    "baseName": "demo",
+    "packageName": "org.hejin.demo",
+    "packageFolder": "org/hejin/demo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MmNjZWQwZmE0NWI4ZDBiYzRmODlkNTMxYmJhNTE5ZTU2ZGVjNjgxOTUyY2Q4MDU5NDBiMjU2OTVkNDljNzMwMTNjNWU1ZjBiN2RjYTkyZGRkNWFlMDZkZGRmNGU0OTU0Zjg0M2VlMjYwNzA1MjVlOGI0MjJhZmJmZTZmZTRkYjI=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "ja",
+    "languages": [
+      "ja",
+      "zh-cn",
+      "en"
+    ]
+  }
+}
