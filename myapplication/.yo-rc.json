@@ -1,0 +1,60 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.hejin.app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "microservice",
+    "baseName": "myapplication",
+    "packageName": "org.hejin.app",
+    "packageFolder": "org/hejin/app",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "N2Q4ZjJiMzEzYWRlNWNmMDQ4OWVkZmFmMGJmZTM1ZDFlNzJlZTJiMzdlMjY5ZjE0NzkyZmYzZDQwOWFlZDhhNWM0MDc4YjA4ZGNlZTcwNTVmZWFmYTIxZDAzOWM3ZTQ3N2MxOTVhYzA4NGY1NWQ2NmJhNmZkZjFmOTlhYWMwYzY=",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "zh-cn",
+      "ja"
+    ],
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.0.7"
+      },
+      {
+        "name": "generator-jhipster-primeng-charts",
+        "version": "1.1.0"
+      },
+      {
+        "name": "generator-jhipster-primeng",
+        "version": "2.0.66"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      }
+    ],
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
